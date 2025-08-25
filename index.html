@@ -16,7 +16,7 @@
     content="Professional portfolio showcasing full-stack development projects and skills">
   <meta property="og:type" content="website">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="icon" type="image/x-icon" href="assets/ruby.ico" />
+  <link rel="icon" type="image/x-icon" href="assets/images/ruby.ico" />
 
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -26,13 +26,13 @@
   <header class="header" id="header">
     <nav class="container">
       <div class="nav">
-        <div class="logo">Portfolio</div>
+        <div class="logo">Narinder Singh</div>
         <div class="nav-links">
           <button class="nav-link" onclick="scrollToSection('about')">about</button>
           <button class="nav-link" onclick="scrollToSection('skills')">skills</button>
           <button class="nav-link" onclick="scrollToSection('projects')">projects</button>
           <button class="nav-link" onclick="scrollToSection('experience')">experience</button>
-          <button class="nav-link" onclick="scrollToSection('contact')">contact</button>
+          <!-- <button class="nav-link" onclick="scrollToSection('contact')">contact</button> -->
         </div>
         <button class="btn btn-primary" onclick="scrollToSection('contact')">Contact Me</button>
       </div>
@@ -47,8 +47,9 @@
           Hi, I'm <span class="gradient-text">Narinder Singh</span>
         </h1>
         <p>
-          Full Stack Developer passionate about creating exceptional digital experiences
-          that solve real-world problems.
+          Ruby on Rails and React JS Developer passionate about crafting scalable, high-performance applications. I
+          combine clean backend architecture with intuitive front-end experiences to deliver real business value.
+          Focused on solving real-world problems with innovative, user-centric solutions.
         </p>
         <div class="hero-buttons">
           <button class="btn btn-primary" onclick="scrollToSection('projects')">View My Work</button>
@@ -86,15 +87,15 @@
               development with expertise in Ruby on Rails, React, and modern web technologies.
             </p>
             <p class="text-lg">
-              Beyond coding, I enjoy pushing boundaries with emerging tech, giving back through open-source,
-              and mentoring developers to grow together as a community.
+              I enjoy exploring emerging tech, contributing to open-source, and mentoring developers.
+              Outside of work, I love music, cricket, and suspense movies.
             </p>
             <div class="tags">
               <span class="tag">Problem Solver</span>
-              <span class="tag">Result Driven</span>
-              <span class="tag">Lifelong Learner</span>
-              <span class="tag">Innovative Thinker</span>
               <span class="tag">Collaborative Team Player</span>
+              <span class="tag">Continuous Learner</span>
+              <span class="tag">Innovative Thinker</span>
+              <span class="tag">Result Driven</span>
             </div>
           </div>
           <div class="card">
@@ -210,7 +211,6 @@
                 <span class="skill-tag">Git</span>
                 <span class="skill-tag">GitHub Actions</span>
                 <span class="skill-tag">CI/CD</span>
-                <span class="skill-tag">Webpack</span>
                 <span class="skill-tag">Linux</span>
                 <span class="skill-tag">Heroku</span>
                 <span class="skill-tag">AWS</span>
@@ -250,91 +250,145 @@
         <div class="grid grid-2">
           <div class="card">
             <div class="card-content">
-              <div class="project-image">🛒</div>
-              <h3 class="project-title">E-Commerce Platform</h3>
+              <div class="project-image"><img src="assets/images/salonHQ.svg"></div>
+              <!-- <div class="project-image">🛒</div> -->
+              <h3 class="project-title">SalonHQ — eCommerce for Beauty Professionals</h3>
               <p class="text-lg mb-4">
-                Full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user
-                authentication, product management, and real-time order tracking.
+                SalonHQ is a scalable eCommerce platform designed for beauty professionals—stylists, barbers, and
+                estheticians—enabling seamless retail and wholesale product purchases with end-to-end logistics support.
               </p>
               <div class="tags mb-6">
+                <span class="tag">Ruby on Rails</span>
                 <span class="tag">React</span>
-                <span class="tag">Node.js</span>
-                <span class="tag">MongoDB</span>
-                <span class="tag">Stripe</span>
+                <span class="tag">GraphQL</span>
+                <span class="tag">Grape</span>
+                <span class="tag">RSpec</span>
+                <span class="tag">TypeScript</span>
                 <span class="tag">Tailwind CSS</span>
               </div>
               <div class="project-buttons">
-                <a href="https://github.com" class="btn btn-outline">⚡ Code</a>
-                <a href="https://demo.com" class="btn btn-primary">🔗 Live Demo</a>
+                <!-- <a href="https://github.com" class="btn btn-outline">⚡ Code</a> -->
+                <a href="https://salonhq.co/" class="btn btn-primary">🔗 SalonHQ</a>
               </div>
             </div>
           </div>
           <div class="card">
             <div class="card-content">
-              <div class="project-image">📊</div>
-              <h3 class="project-title">Project Management Tool</h3>
+              <div class="project-image"><img src="assets/images/upright-logo.webp"></div>
+              <h3 class="project-title">UprightLabs — Product Listing Automation</h3>
               <p class="text-lg mb-4">
-                Collaborative project management application with real-time updates, task assignment, and progress
-                tracking. Built with modern web technologies.
+                Built an e-commerce platform integrated with eBay, Shopify, and ShopGoodwill, featuring dynamic
+                listings, role management, automated workflows, and image-based product authentication with performance
+                analytics.
               </p>
               <div class="tags mb-6">
-                <span class="tag">Next.js</span>
+                <span class="tag">Ruby on Rails</span>
+                <span class="tag">React.js</span>
                 <span class="tag">TypeScript</span>
                 <span class="tag">PostgreSQL</span>
-                <span class="tag">Socket.io</span>
-                <span class="tag">Prisma</span>
+                <span class="tag">Redis</span>
+                <span class="tag">Sentry</span>
+                <span class="tag">Datadog</span>
+                <span class="tag">LaunchDarkly</span>
               </div>
               <div class="project-buttons">
-                <a href="https://github.com" class="btn btn-outline">⚡ Code</a>
-                <a href="https://demo.com" class="btn btn-primary">🔗 Live Demo</a>
+                <a href="https://www.uprightlabs.com/upright-lister/" class="btn btn-primary">🔗 UprightLabs</a>
               </div>
             </div>
           </div>
           <div class="card">
             <div class="card-content">
-              <div class="project-image">🤖</div>
-              <h3 class="project-title">AI-Powered Analytics Dashboard</h3>
+              <div class="project-image"><img src="assets/images/VChatAPro.webp"></div>
+              <h3 class="project-title">VideoChatAPro — Remote Video Service Marketplace</h3>
               <p class="text-lg mb-4">
-                Data visualization dashboard with machine learning insights. Processes large datasets to provide
-                actionable business intelligence.
+                Developed a web-based video chat platform for remote consultations during COVID-19.
+                Integrated seamless video calling using OpenTok for reliable interactions.
+                Added secure payments and notifications to enhance user experience.
               </p>
               <div class="tags mb-6">
-                <span class="tag">Python</span>
-                <span class="tag">React</span>
-                <span class="tag">FastAPI</span>
-                <span class="tag">TensorFlow</span>
-                <span class="tag">D3.js</span>
+                <span class="tag">Ruby on Rails</span>
+                <span class="tag">HAML</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Redis</span>
+                <span class="tag">OpenTok</span>
+                <span class="tag">Stripe</span>
               </div>
               <div class="project-buttons">
-                <a href="https://github.com" class="btn btn-outline">⚡ Code</a>
-                <a href="https://demo.com" class="btn btn-primary">🔗 Live Demo</a>
+                <a href="https://videochatapro.com/" class="btn btn-primary">🔗 VideoChatAPro</a>
               </div>
             </div>
           </div>
           <div class="card">
             <div class="card-content">
-              <div class="project-image">💪</div>
-              <h3 class="project-title">Mobile Fitness App</h3>
+              <div class="project-image"><img src="assets/images/DataCube-Logo.png"></div>
+              <h3 class="project-title">DataCube — Data Analytics Dashboard</h3>
               <p class="text-lg mb-4">
-                React Native fitness tracking app with workout plans, progress monitoring, and social features.
-                Integrated with health APIs and wearable devices.
+                DataCube provides a comprehensive service for industries and companies that require detailed tracking of
+                their employees' processes, work records, targets, goals, productivity, and deliveries.
               </p>
               <div class="tags mb-6">
-                <span class="tag">React Native</span>
-                <span class="tag">Firebase</span>
+                <span class="tag">React.JS</span>
+                <span class="tag">Tailwind CSS</span>
                 <span class="tag">Redux</span>
-                <span class="tag">HealthKit</span>
-                <span class="tag">Google Fit</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Stripe</span>
+                <span class="tag">Service Titan</span>
               </div>
               <div class="project-buttons">
-                <a href="https://github.com" class="btn btn-outline">⚡ Code</a>
-                <a href="https://demo.com" class="btn btn-primary">🔗 Live Demo</a>
+                <a href="https://datacube.ai/" class="btn btn-primary">🔗 DataCube</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="project-image"><img src="assets/images/Beaurow.webp"></div>
+              <h3 class="project-title">Beaurow — Social eCommerce Platform</h3>
+              <p class="text-lg mb-4">
+                Beaurow is a France-based e-commerce platform accessible only in the US. Built with Ruby on Rails,
+                it featured Stripe 3D Secure payments, social logins, and real-time chat with ActionCable.
+                Implemented French localization using I18n, role-based access, and order management.
+              </p>
+              <div class="tags mb-6">
+                <span class="tag">Ruby on Rails</span>
+                <span class="tag">HAML</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Sidekiq</span>
+                <span class="tag">Stripe</span>
+                <span class="tag">DelayJob</span>
+                <span class="tag">ActionCable</span>
+                <span class="tag">PostgreSQL</span>
+              </div>
+              <div class="project-buttons">
+                <a href="https://www.beaurow.com/" class="btn btn-primary">🔗 Beaurow</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="project-image"><img src="assets/images/auctionMyDeal.jpg"></div>
+              <h3 class="project-title">AuctionMyDeal — Property Auction Platform</h3>
+              <p class="text-lg mb-4">
+                Built AuctionMyDeal, a US-based property auction platform for sale, purchase,
+                and rental listings. Developed bidding, account management, and dynamic filters
+                with a React-powered UI. Enhanced frontend performance using HAML templating.
+              </p>
+              <div class="tags mb-6">
+                <span class="tag">Ruby on Rails</span>
+                <span class="tag">CoffeeScript</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">HAML</span>
+                <span class="tag">Sidekiq</span>
+                <span class="tag">Stripe</span>
+                <span class="tag">PostgreSQL</span>
+              </div>
+              <div class="project-buttons">
+                <a href="https://www.facebook.com/auctionmydeal/" class="btn btn-primary">🔗 AuctionMyDeal fb</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
   </section>
 
   <!-- Experience Section -->
@@ -347,15 +401,17 @@
             <div class="card-content">
               <div class="exp-header">
                 <div>
-                  <h3 class="exp-title">Software Developer</h3>
-                  <a href="https://www.mobileprogramming.com/" target="_blank" class="text-decoration-none exp-company">Mobile Programming India Pvt. Ltd.</a>
-                  <!-- <p ></p> -->
+                  <h3 class="exp-title">Software Engineer</h3>
+                  <a href="https://www.mobileprogramming.com/" target="_blank"
+                    class="text-decoration-none exp-company">Mobile Programming India Pvt. Ltd.</a>
                 </div>
                 <span class="exp-period">October 2024 - July 2025</span>
               </div>
               <p class="text-lg mb-4">
-                Built scalable APIs with GraphQL and Grape, integrating third-party services to extend system capabilities.
-                Developed responsive UIs using React, TypeScript, and Tailwind, while ensuring quality with RSpec tests and Agile collaboration.
+                Built scalable APIs with GraphQL and Grape, integrating third-party services to extend system
+                capabilities.
+                Developed responsive UIs using React, TypeScript, and Tailwind, while ensuring quality with RSpec tests
+                and Agile collaboration.
                 Mentored junior developers and implemented best practices for code quality and deployment.
               </p>
               <div class="achievements">
@@ -373,21 +429,50 @@
               <div class="exp-header">
                 <div>
                   <h3 class="exp-title">Software Engineer</h3>
-                  <a href="https://closeloop.com/" target="_blank" class="text-decoration-none exp-company">CloseLoop Technologies</a>
+                  <a href="https://closeloop.com/" target="_blank" class="text-decoration-none exp-company">CloseLoop
+                    Technologies</a>
                 </div>
                 <span class="exp-period">December 2022 - August 2024</span>
               </div>
               <p class="text-lg mb-4">
-               Built Ruby on Rails applications with React frontend for multi-platform product listings across eBay, Shopify, and ShopGoodwill. Implemented Docker-based containerization to streamline deployments,
-               and contributed to role-based access control, listing workflows, and marketplace integrations.
+                Built Ruby on Rails applications with React frontend for multi-platform product listings across eBay,
+                Shopify, and ShopGoodwill. Implemented Docker-based containerization to streamline deployments,
+                and contributed to role-based access control, listing workflows, and marketplace integrations.
               </p>
               <div class="achievements">
                 <h4>Key Achievements:</h4>
                 <ul class="space-y-1">
-                  <li>Built Rails + React apps for multi-platform listings</li>  
-                  <li>Implemented Docker containers for deployments</li>  
-                  <li>Developed role-based access control workflows</li>  
-                  <li>Integrated eBay, Shopify, and ShopGoodwill APIs</li>  
+                  <li>Built Rails + React apps for multi-platform listings</li>
+                  <li>Implemented Docker containers for deployments</li>
+                  <li>Developed role-based access control workflows</li>
+                  <li>Integrated eBay, Shopify, and ShopGoodwill APIs</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-title">Senior Software Developer</h3>
+                  <a href="https://www.accionlabs.com/" target="_blank" class="text-decoration-none exp-company">Accion
+                    Labs Pvt. Ltd</a>
+                </div>
+                <span class="exp-period">June 2022 - October 2022</span>
+              </div>
+              <p class="text-lg mb-4">
+                Contributed to the VIBES messaging platform and Adobe Journey Optimizer by building scalable
+                backend services and APIs for high-volume messaging. Integrated SendGrid and Google email services
+                to enhance communication workflows. Optimized database performance across MySQL and MongoDB for
+                improved efficiency and reliability.
+              </p>
+              <div class="achievements">
+                <h4>Key Achievements:</h4>
+                <ul class="space-y-1">
+                  <li>Integrated Adobe Journey Optimizer workflows</li>
+                  <li>Optimized PostgreSQL and MongoDB databases</li>
+                  <li>Built high-volume messaging APIs</li>
+                  <li>Enhanced performance and system reliability</li>
                 </ul>
               </div>
             </div>
@@ -397,14 +482,17 @@
               <div class="exp-header">
                 <div>
                   <h3 class="exp-title">Software Developer</h3>
-                  <p class="exp-company">Code Garage Tech</p>
+                  <a href="https://codegaragetech.com/" target="_blank" class="text-decoration-none exp-company">Code
+                    Garage Tech</a>
                 </div>
                 <span class="exp-period">September 2019 - June 2022</span>
               </div>
               <p class="text-lg mb-4">
                 Led backend development for e-commerce platforms and a U.S. property auction site.
-                Implemented Elasticsearch-powered full-text search and optimized databases in PostgreSQL, MySQL, and MongoDB.
-                Integrated social logins, streamlined Docker-based deployments, and enhanced authentication with real-time features and background job processing.
+                Implemented Elasticsearch-powered full-text search and optimized databases in PostgreSQL, MySQL, and
+                MongoDB.
+                Integrated social logins, streamlined Docker-based deployments, and enhanced authentication with
+                real-time features and background job processing.
               </p>
               <div class="achievements">
                 <h4>Key Achievements:</h4>
@@ -414,6 +502,61 @@
                   <li>Integrated social logins for onboarding</li>
                   <li>Contributed to 50+ GitHub repositories</li>
                   <li>Participated in code reviews</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-title">Software Developer & Trainer</h3>
+                  <a href="https://codeinfotech.co.in/" target="_blank" class="text-decoration-none exp-company">Code
+                    Info Tech</a>
+                </div>
+                <span class="exp-period">October 2018 - July 2019</span>
+              </div>
+              <p class="text-lg mb-4">
+                Developed frontend components with HTML, CSS, and JavaScript while building backend logic in Ruby on
+                Rails,
+                Python, Core Java, and C++. Contributed to creating robust and efficient applications through strong
+                backend programming.
+                Mentored junior developers and students and provided practical software training to support team growth.
+              </p>
+              <div class="achievements">
+                <h4>Key Achievements:</h4>
+                <ul class="space-y-1">
+                  <li>Built scalable backend application logic</li>
+                  <li>Developed responsive frontend web components</li>
+                  <li>Mentored and trained junior developers</li>
+                  <li>Delivered efficient cross-language solutions</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <div class="exp-header">
+                <div>
+                  <h3 class="exp-title">Software Trainer</h3>
+                  <a href="https://www.excellencetechnology.in/" target="_blank"
+                    class="text-decoration-none exp-company">Excellence Technology</a>
+                </div>
+                <span class="exp-period">October 2014 - September 2018</span>
+              </div>
+              <p class="text-lg mb-4">
+                Trained students and junior developers in frontend technologies like HTML, CSS, and JavaScript, as well
+                as backend programming with Ruby on Rails, Python, Core Java, and C++. Delivered practical, hands-on
+                sessions to build robust applications and strengthen programming fundamentals. Mentored learners to
+                support career growth and real-world problem-solving skills.
+              </p>
+              <div class="achievements">
+                <h4>Key Achievements:</h4>
+                <ul class="space-y-1">
+                  <li>Delivered hands-on programming training</li>
+                  <li>Mentored junior developers in projects</li>
+                  <li>Taught frontend and backend technologies</li>
+                  <li>Enhanced students’ real-world coding skills</li>
                 </ul>
               </div>
             </div>

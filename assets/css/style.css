@@ -414,6 +414,9 @@ body {
   margin-bottom: 1rem;
 }
 
+.project-image img {
+  width: 150px;
+}
 .project-title {
   font-size: 1.25rem;
   font-weight: 600;
